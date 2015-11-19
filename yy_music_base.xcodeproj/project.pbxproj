@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D95EEFA21BFE186B0037CA01 /* ym_sf2.c in Sources */ = {isa = PBXBuildFile; fileRef = D95EEF9F1BFE186B0037CA01 /* ym_sf2.c */; };
+		D95EEFA31BFE186B0037CA01 /* ym_exs.c in Sources */ = {isa = PBXBuildFile; fileRef = D95EEFA11BFE186B0037CA01 /* ym_exs.c */; };
+		D968B8941A67D61700190B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D968B8931A67D61700190B47 /* main.m */; };
+		D968B8C41A67D91700190B47 /* ym_base.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8B31A67D91700190B47 /* ym_base.c */; };
+		D968B8C51A67D91700190B47 /* ym_log.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8B51A67D91700190B47 /* ym_log.c */; };
+		D968B8C61A67D91700190B47 /* ym_util.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8B71A67D91700190B47 /* ym_util.c */; };
+		D968B8C71A67D91700190B47 /* ym_array.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8B91A67D91700190B47 /* ym_array.c */; };
+		D968B8C81A67D91700190B47 /* ym_map.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8BB1A67D91700190B47 /* ym_map.c */; };
+		D968B8C91A67D91700190B47 /* ym_data.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8BD1A67D91700190B47 /* ym_data.c */; };
+		D968B8CA1A67D91700190B47 /* ym_fifo.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8BF1A67D91700190B47 /* ym_fifo.c */; };
+		D968B8CB1A67D91700190B47 /* ym_task.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8C11A67D91700190B47 /* ym_task.c */; };
+		D968B8CC1A67D91700190B47 /* ym_lock.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8C31A67D91700190B47 /* ym_lock.c */; };
+		D968B8DB1A67D93200190B47 /* ym_math.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8D01A67D93200190B47 /* ym_math.c */; };
+		D968B8DC1A67D93200190B47 /* ym_complex.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8D21A67D93200190B47 /* ym_complex.c */; };
+		D968B8DD1A67D93200190B47 /* ym_simd.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8D41A67D93200190B47 /* ym_simd.c */; };
+		D968B8DE1A67D93200190B47 /* ym_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8D61A67D93200190B47 /* ym_fft.c */; };
+		D968B8DF1A67D93200190B47 /* ym_window_func.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8D81A67D93200190B47 /* ym_window_func.c */; };
+		D968B8EF1A68FE3600190B47 /* ym_file.c in Sources */ = {isa = PBXBuildFile; fileRef = D968B8ED1A68FE3600190B47 /* ym_file.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D968B88E1A67D61700190B47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D95EEF9E1BFE186B0037CA01 /* ym_sf2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_sf2.h; sourceTree = "<group>"; };
+		D95EEF9F1BFE186B0037CA01 /* ym_sf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_sf2.c; sourceTree = "<group>"; };
+		D95EEFA01BFE186B0037CA01 /* ym_exs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_exs.h; sourceTree = "<group>"; };
+		D95EEFA11BFE186B0037CA01 /* ym_exs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_exs.c; sourceTree = "<group>"; };
+		D968B8901A67D61700190B47 /* yy_music_base */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yy_music_base; sourceTree = BUILT_PRODUCTS_DIR; };
+		D968B8931A67D61700190B47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D968B8AE1A67D8F700190B47 /* ym_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ym_define.h; sourceTree = "<group>"; };
+		D968B8B21A67D91700190B47 /* ym_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_base.h; sourceTree = "<group>"; };
+		D968B8B31A67D91700190B47 /* ym_base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_base.c; sourceTree = "<group>"; };
+		D968B8B41A67D91700190B47 /* ym_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_log.h; sourceTree = "<group>"; };
+		D968B8B51A67D91700190B47 /* ym_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_log.c; sourceTree = "<group>"; };
+		D968B8B61A67D91700190B47 /* ym_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_util.h; sourceTree = "<group>"; };
+		D968B8B71A67D91700190B47 /* ym_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_util.c; sourceTree = "<group>"; };
+		D968B8B81A67D91700190B47 /* ym_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_array.h; sourceTree = "<group>"; };
+		D968B8B91A67D91700190B47 /* ym_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_array.c; sourceTree = "<group>"; };
+		D968B8BA1A67D91700190B47 /* ym_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_map.h; sourceTree = "<group>"; };
+		D968B8BB1A67D91700190B47 /* ym_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_map.c; sourceTree = "<group>"; };
+		D968B8BC1A67D91700190B47 /* ym_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_data.h; sourceTree = "<group>"; };
+		D968B8BD1A67D91700190B47 /* ym_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_data.c; sourceTree = "<group>"; };
+		D968B8BE1A67D91700190B47 /* ym_fifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_fifo.h; sourceTree = "<group>"; };
+		D968B8BF1A67D91700190B47 /* ym_fifo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_fifo.c; sourceTree = "<group>"; };
+		D968B8C01A67D91700190B47 /* ym_task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_task.h; sourceTree = "<group>"; };
+		D968B8C11A67D91700190B47 /* ym_task.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_task.c; sourceTree = "<group>"; };
+		D968B8C21A67D91700190B47 /* ym_lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_lock.h; sourceTree = "<group>"; };
+		D968B8C31A67D91700190B47 /* ym_lock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_lock.c; sourceTree = "<group>"; };
+		D968B8CF1A67D93200190B47 /* ym_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_math.h; sourceTree = "<group>"; };
+		D968B8D01A67D93200190B47 /* ym_math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_math.c; sourceTree = "<group>"; };
+		D968B8D11A67D93200190B47 /* ym_complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_complex.h; sourceTree = "<group>"; };
+		D968B8D21A67D93200190B47 /* ym_complex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_complex.c; sourceTree = "<group>"; };
+		D968B8D31A67D93200190B47 /* ym_simd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_simd.h; sourceTree = "<group>"; };
+		D968B8D41A67D93200190B47 /* ym_simd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_simd.c; sourceTree = "<group>"; };
+		D968B8D51A67D93200190B47 /* ym_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_fft.h; sourceTree = "<group>"; };
+		D968B8D61A67D93200190B47 /* ym_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_fft.c; sourceTree = "<group>"; };
+		D968B8D71A67D93200190B47 /* ym_window_func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_window_func.h; sourceTree = "<group>"; };
+		D968B8D81A67D93200190B47 /* ym_window_func.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_window_func.c; sourceTree = "<group>"; };
+		D968B8ED1A68FE3600190B47 /* ym_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ym_file.c; sourceTree = "<group>"; };
+		D968B8EE1A68FE3600190B47 /* ym_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym_file.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D968B88D1A67D61700190B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D968B8871A67D61700190B47 = {
+			isa = PBXGroup;
+			children = (
+				D968B8921A67D61700190B47 /* yy_music_base */,
+				D968B8911A67D61700190B47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D968B8911A67D61700190B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D968B8901A67D61700190B47 /* yy_music_base */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D968B8921A67D61700190B47 /* yy_music_base */ = {
+			isa = PBXGroup;
+			children = (
+				D968B8AE1A67D8F700190B47 /* ym_define.h */,
+				D968B8B11A67D90D00190B47 /* base */,
+				D968B8CE1A67D92800190B47 /* math */,
+				D968B8EB1A68AABA00190B47 /* test */,
+			);
+			path = yy_music_base;
+			sourceTree = "<group>";
+		};
+		D968B8B11A67D90D00190B47 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				D968B8B21A67D91700190B47 /* ym_base.h */,
+				D968B8B31A67D91700190B47 /* ym_base.c */,
+				D968B8B61A67D91700190B47 /* ym_util.h */,
+				D968B8B71A67D91700190B47 /* ym_util.c */,
+				D968B8B41A67D91700190B47 /* ym_log.h */,
+				D968B8B51A67D91700190B47 /* ym_log.c */,
+				D968B8B81A67D91700190B47 /* ym_array.h */,
+				D968B8B91A67D91700190B47 /* ym_array.c */,
+				D968B8BA1A67D91700190B47 /* ym_map.h */,
+				D968B8BB1A67D91700190B47 /* ym_map.c */,
+				D968B8BC1A67D91700190B47 /* ym_data.h */,
+				D968B8BD1A67D91700190B47 /* ym_data.c */,
+				D968B8BE1A67D91700190B47 /* ym_fifo.h */,
+				D968B8BF1A67D91700190B47 /* ym_fifo.c */,
+				D968B8EE1A68FE3600190B47 /* ym_file.h */,
+				D968B8ED1A68FE3600190B47 /* ym_file.c */,
+				D968B8C01A67D91700190B47 /* ym_task.h */,
+				D968B8C11A67D91700190B47 /* ym_task.c */,
+				D968B8C21A67D91700190B47 /* ym_lock.h */,
+				D968B8C31A67D91700190B47 /* ym_lock.c */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		D968B8CE1A67D92800190B47 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				D968B8CF1A67D93200190B47 /* ym_math.h */,
+				D968B8D01A67D93200190B47 /* ym_math.c */,
+				D968B8D11A67D93200190B47 /* ym_complex.h */,
+				D968B8D21A67D93200190B47 /* ym_complex.c */,
+				D968B8D31A67D93200190B47 /* ym_simd.h */,
+				D968B8D41A67D93200190B47 /* ym_simd.c */,
+				D968B8D51A67D93200190B47 /* ym_fft.h */,
+				D968B8D61A67D93200190B47 /* ym_fft.c */,
+				D968B8D71A67D93200190B47 /* ym_window_func.h */,
+				D968B8D81A67D93200190B47 /* ym_window_func.c */,
+			);
+			name = math;
+			sourceTree = "<group>";
+		};
+		D968B8EB1A68AABA00190B47 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				D95EEF9E1BFE186B0037CA01 /* ym_sf2.h */,
+				D95EEF9F1BFE186B0037CA01 /* ym_sf2.c */,
+				D95EEFA01BFE186B0037CA01 /* ym_exs.h */,
+				D95EEFA11BFE186B0037CA01 /* ym_exs.c */,
+				D968B8931A67D61700190B47 /* main.m */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D968B88F1A67D61700190B47 /* yy_music_base */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D968B8971A67D61700190B47 /* Build configuration list for PBXNativeTarget "yy_music_base" */;
+			buildPhases = (
+				D968B88C1A67D61700190B47 /* Sources */,
+				D968B88D1A67D61700190B47 /* Frameworks */,
+				D968B88E1A67D61700190B47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yy_music_base;
+			productName = yy_music_base;
+			productReference = D968B8901A67D61700190B47 /* yy_music_base */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D968B8881A67D61700190B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ym_;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ibireme;
+				TargetAttributes = {
+					D968B88F1A67D61700190B47 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D968B88B1A67D61700190B47 /* Build configuration list for PBXProject "yy_music_base" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D968B8871A67D61700190B47;
+			productRefGroup = D968B8911A67D61700190B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D968B88F1A67D61700190B47 /* yy_music_base */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D968B88C1A67D61700190B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D968B8CB1A67D91700190B47 /* ym_task.c in Sources */,
+				D968B8C91A67D91700190B47 /* ym_data.c in Sources */,
+				D968B8DD1A67D93200190B47 /* ym_simd.c in Sources */,
+				D968B8C41A67D91700190B47 /* ym_base.c in Sources */,
+				D968B8DE1A67D93200190B47 /* ym_fft.c in Sources */,
+				D968B8C61A67D91700190B47 /* ym_util.c in Sources */,
+				D968B8CC1A67D91700190B47 /* ym_lock.c in Sources */,
+				D968B8DB1A67D93200190B47 /* ym_math.c in Sources */,
+				D968B8EF1A68FE3600190B47 /* ym_file.c in Sources */,
+				D95EEFA21BFE186B0037CA01 /* ym_sf2.c in Sources */,
+				D968B8DC1A67D93200190B47 /* ym_complex.c in Sources */,
+				D968B8CA1A67D91700190B47 /* ym_fifo.c in Sources */,
+				D968B8C81A67D91700190B47 /* ym_map.c in Sources */,
+				D968B8DF1A67D93200190B47 /* ym_window_func.c in Sources */,
+				D968B8C71A67D91700190B47 /* ym_array.c in Sources */,
+				D968B8C51A67D91700190B47 /* ym_log.c in Sources */,
+				D95EEFA31BFE186B0037CA01 /* ym_exs.c in Sources */,
+				D968B8941A67D61700190B47 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D968B8951A67D61700190B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D968B8961A67D61700190B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D968B8981A67D61700190B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = yy_music_base;
+			};
+			name = Debug;
+		};
+		D968B8991A67D61700190B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = yy_music_base;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D968B88B1A67D61700190B47 /* Build configuration list for PBXProject "yy_music_base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D968B8951A67D61700190B47 /* Debug */,
+				D968B8961A67D61700190B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D968B8971A67D61700190B47 /* Build configuration list for PBXNativeTarget "yy_music_base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D968B8981A67D61700190B47 /* Debug */,
+				D968B8991A67D61700190B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D968B8881A67D61700190B47 /* Project object */;
+}
